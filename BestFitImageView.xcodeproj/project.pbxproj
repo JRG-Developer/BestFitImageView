@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42DCB3AC1B250C5F0087AB50 /* BestFitImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42DCB3AB1B250C5F0087AB50 /* BestFitImageView.h */; };
+		42DCB3AE1B250C5F0087AB50 /* BestFitImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCB3AD1B250C5F0087AB50 /* BestFitImageView.m */; };
+		42DCB3B41B250C5F0087AB50 /* libBestFitImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCB3A81B250C5F0087AB50 /* libBestFitImageView.a */; };
+		42DCB3C41B2514200087AB50 /* BestFitImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCB3C31B2514200087AB50 /* BestFitImageViewTests.m */; };
+		C4D9F70F77317354D23D8594 /* libPods-BestFitImageViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA66686F767B2FCC1D182D4 /* libPods-BestFitImageViewTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42DCB3B51B250C5F0087AB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42DCB3A01B250C5F0087AB50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DCB3A71B250C5F0087AB50;
+			remoteInfo = BestFitImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42DCB3A61B250C5F0087AB50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				42DCB3AC1B250C5F0087AB50 /* BestFitImageView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BA66686F767B2FCC1D182D4 /* libPods-BestFitImageViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestFitImageViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132630408A72227778330558 /* Pods-BestFitImageViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestFitImageViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestFitImageViewTests/Pods-BestFitImageViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		2508642A9A27782A4B6F175E /* Pods-BestFitImageViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestFitImageViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestFitImageViewTests/Pods-BestFitImageViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42DCB3A81B250C5F0087AB50 /* libBestFitImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBestFitImageView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DCB3AB1B250C5F0087AB50 /* BestFitImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BestFitImageView.h; sourceTree = "<group>"; };
+		42DCB3AD1B250C5F0087AB50 /* BestFitImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestFitImageView.m; sourceTree = "<group>"; };
+		42DCB3B31B250C5F0087AB50 /* BestFitImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestFitImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DCB3B91B250C5F0087AB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DCB3C31B2514200087AB50 /* BestFitImageViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestFitImageViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42DCB3A51B250C5F0087AB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DCB3B01B250C5F0087AB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DCB3B41B250C5F0087AB50 /* libBestFitImageView.a in Frameworks */,
+				C4D9F70F77317354D23D8594 /* libPods-BestFitImageViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42DCB39F1B250C5F0087AB50 = {
+			isa = PBXGroup;
+			children = (
+				42DCB3AA1B250C5F0087AB50 /* BestFitImageView */,
+				42DCB3B71B250C5F0087AB50 /* BestFitImageViewTests */,
+				42DCB3A91B250C5F0087AB50 /* Products */,
+				B3C50B6096EE63197BCDF6AD /* Pods */,
+				67DC18551C5E81922677BB3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42DCB3A91B250C5F0087AB50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42DCB3A81B250C5F0087AB50 /* libBestFitImageView.a */,
+				42DCB3B31B250C5F0087AB50 /* BestFitImageViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42DCB3AA1B250C5F0087AB50 /* BestFitImageView */ = {
+			isa = PBXGroup;
+			children = (
+				42DCB3AB1B250C5F0087AB50 /* BestFitImageView.h */,
+				42DCB3AD1B250C5F0087AB50 /* BestFitImageView.m */,
+			);
+			path = BestFitImageView;
+			sourceTree = "<group>";
+		};
+		42DCB3B71B250C5F0087AB50 /* BestFitImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				42DCB3C31B2514200087AB50 /* BestFitImageViewTests.m */,
+				42DCB3B81B250C5F0087AB50 /* Supporting Files */,
+			);
+			path = BestFitImageViewTests;
+			sourceTree = "<group>";
+		};
+		42DCB3B81B250C5F0087AB50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42DCB3B91B250C5F0087AB50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67DC18551C5E81922677BB3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA66686F767B2FCC1D182D4 /* libPods-BestFitImageViewTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C50B6096EE63197BCDF6AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2508642A9A27782A4B6F175E /* Pods-BestFitImageViewTests.debug.xcconfig */,
+				132630408A72227778330558 /* Pods-BestFitImageViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42DCB3A71B250C5F0087AB50 /* BestFitImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DCB3BC1B250C5F0087AB50 /* Build configuration list for PBXNativeTarget "BestFitImageView" */;
+			buildPhases = (
+				42DCB3A41B250C5F0087AB50 /* Sources */,
+				42DCB3A51B250C5F0087AB50 /* Frameworks */,
+				42DCB3A61B250C5F0087AB50 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestFitImageView;
+			productName = BestFitImageView;
+			productReference = 42DCB3A81B250C5F0087AB50 /* libBestFitImageView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		42DCB3B21B250C5F0087AB50 /* BestFitImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42DCB3BF1B250C5F0087AB50 /* Build configuration list for PBXNativeTarget "BestFitImageViewTests" */;
+			buildPhases = (
+				27D93D9DC525DECB7A28A62D /* Check Pods Manifest.lock */,
+				42DCB3AF1B250C5F0087AB50 /* Sources */,
+				42DCB3B01B250C5F0087AB50 /* Frameworks */,
+				42DCB3B11B250C5F0087AB50 /* Resources */,
+				4580EC8C06EE8D455E7239AE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42DCB3B61B250C5F0087AB50 /* PBXTargetDependency */,
+			);
+			name = BestFitImageViewTests;
+			productName = BestFitImageViewTests;
+			productReference = 42DCB3B31B250C5F0087AB50 /* BestFitImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42DCB3A01B250C5F0087AB50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "JRG-Developer";
+				TargetAttributes = {
+					42DCB3A71B250C5F0087AB50 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					42DCB3B21B250C5F0087AB50 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 42DCB3A31B250C5F0087AB50 /* Build configuration list for PBXProject "BestFitImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42DCB39F1B250C5F0087AB50;
+			productRefGroup = 42DCB3A91B250C5F0087AB50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42DCB3A71B250C5F0087AB50 /* BestFitImageView */,
+				42DCB3B21B250C5F0087AB50 /* BestFitImageViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42DCB3B11B250C5F0087AB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27D93D9DC525DECB7A28A62D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4580EC8C06EE8D455E7239AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestFitImageViewTests/Pods-BestFitImageViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42DCB3A41B250C5F0087AB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DCB3AE1B250C5F0087AB50 /* BestFitImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DCB3AF1B250C5F0087AB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DCB3C41B2514200087AB50 /* BestFitImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42DCB3B61B250C5F0087AB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42DCB3A71B250C5F0087AB50 /* BestFitImageView */;
+			targetProxy = 42DCB3B51B250C5F0087AB50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42DCB3BA1B250C5F0087AB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42DCB3BB1B250C5F0087AB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42DCB3BD1B250C5F0087AB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		42DCB3BE1B250C5F0087AB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		42DCB3C01B250C5F0087AB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2508642A9A27782A4B6F175E /* Pods-BestFitImageViewTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BestFitImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42DCB3C11B250C5F0087AB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132630408A72227778330558 /* Pods-BestFitImageViewTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BestFitImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42DCB3A31B250C5F0087AB50 /* Build configuration list for PBXProject "BestFitImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DCB3BA1B250C5F0087AB50 /* Debug */,
+				42DCB3BB1B250C5F0087AB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DCB3BC1B250C5F0087AB50 /* Build configuration list for PBXNativeTarget "BestFitImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DCB3BD1B250C5F0087AB50 /* Debug */,
+				42DCB3BE1B250C5F0087AB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42DCB3BF1B250C5F0087AB50 /* Build configuration list for PBXNativeTarget "BestFitImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42DCB3C01B250C5F0087AB50 /* Debug */,
+				42DCB3C11B250C5F0087AB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42DCB3A01B250C5F0087AB50 /* Project object */;
+}
