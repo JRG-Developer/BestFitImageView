@@ -11,7 +11,7 @@ end
 
 target 'BestFitImageViewDemo' do
   xcodeproj 'BestFitImageViewDemo/BestFitImageViewDemo'
-  pod 'BestFitImageView', '.'
+  pod 'BestFitImageView', :path => '.'
 end
 
 target 'BestFitImageViewTests' do

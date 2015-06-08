@@ -13,19 +13,10 @@
 		42DCB3DF1B251A5B0087AB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DCB3DD1B251A5B0087AB50 /* Main.storyboard */; };
 		42DCB3E11B251A5B0087AB50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DCB3E01B251A5B0087AB50 /* Images.xcassets */; };
 		42DCB3E41B251A5B0087AB50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DCB3E21B251A5B0087AB50 /* LaunchScreen.xib */; };
-		42DCB3F01B251A5B0087AB50 /* BestFitImageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DCB3EF1B251A5B0087AB50 /* BestFitImageViewDemoTests.m */; };
-		42DCB3FA1B251A9E0087AB50 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 42DCB3F91B251A9E0087AB50 /* Images */; };
+		42DCB4001B251FE40087AB50 /* spirited_away_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42DCB3FE1B251FE40087AB50 /* spirited_away_large.jpg */; };
+		42DCB4011B251FE40087AB50 /* spirited_away_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42DCB3FF1B251FE40087AB50 /* spirited_away_small.jpg */; };
+		9EF855BFDC10237699AC60F5 /* libPods-BestFitImageViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A12506BEBBC9D274BD1820D9 /* libPods-BestFitImageViewDemo.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		42DCB3EA1B251A5B0087AB50 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42DCB3C81B251A5B0087AB50 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42DCB3CF1B251A5B0087AB50;
-			remoteInfo = BestFitImageViewDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		42DCB3D01B251A5B0087AB50 /* BestFitImageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestFitImageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,10 +29,11 @@
 		42DCB3DE1B251A5B0087AB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42DCB3E01B251A5B0087AB50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42DCB3E31B251A5B0087AB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		42DCB3E91B251A5B0087AB50 /* BestFitImageViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestFitImageViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42DCB3EE1B251A5B0087AB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42DCB3EF1B251A5B0087AB50 /* BestFitImageViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestFitImageViewDemoTests.m; sourceTree = "<group>"; };
-		42DCB3F91B251A9E0087AB50 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = SOURCE_ROOT; };
+		42DCB3FE1B251FE40087AB50 /* spirited_away_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spirited_away_large.jpg; sourceTree = "<group>"; };
+		42DCB3FF1B251FE40087AB50 /* spirited_away_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spirited_away_small.jpg; sourceTree = "<group>"; };
+		8ABE9B3D0C8070630E736C6E /* Pods-BestFitImageViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestFitImageViewDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BestFitImageViewDemo/Pods-BestFitImageViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A12506BEBBC9D274BD1820D9 /* libPods-BestFitImageViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestFitImageViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16DB6D7AA9E1D1D599EF2ED /* Pods-BestFitImageViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestFitImageViewDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BestFitImageViewDemo/Pods-BestFitImageViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,13 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42DCB3E61B251A5B0087AB50 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9EF855BFDC10237699AC60F5 /* libPods-BestFitImageViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,8 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				42DCB3D21B251A5B0087AB50 /* BestFitImageViewDemo */,
-				42DCB3EC1B251A5B0087AB50 /* BestFitImageViewDemoTests */,
 				42DCB3D11B251A5B0087AB50 /* Products */,
+				8870B39B1BF60FE0EA7F053A /* Pods */,
+				617F8F49610CB67639289178 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				42DCB3D01B251A5B0087AB50 /* BestFitImageViewDemo.app */,
-				42DCB3E91B251A5B0087AB50 /* BestFitImageViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +88,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		42DCB3EC1B251A5B0087AB50 /* BestFitImageViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				42DCB3EF1B251A5B0087AB50 /* BestFitImageViewDemoTests.m */,
-				42DCB3ED1B251A5B0087AB50 /* Supporting Files */,
-			);
-			path = BestFitImageViewDemoTests;
-			sourceTree = "<group>";
-		};
-		42DCB3ED1B251A5B0087AB50 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				42DCB3EE1B251A5B0087AB50 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		42DCB3FB1B251CFD0087AB50 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				42DCB3E01B251A5B0087AB50 /* Images.xcassets */,
-				42DCB3F91B251A9E0087AB50 /* Images */,
+				42DCB3FE1B251FE40087AB50 /* spirited_away_large.jpg */,
+				42DCB3FF1B251FE40087AB50 /* spirited_away_small.jpg */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -146,6 +116,23 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		617F8F49610CB67639289178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12506BEBBC9D274BD1820D9 /* libPods-BestFitImageViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8870B39B1BF60FE0EA7F053A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE9B3D0C8070630E736C6E /* Pods-BestFitImageViewDemo.debug.xcconfig */,
+				D16DB6D7AA9E1D1D599EF2ED /* Pods-BestFitImageViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42DCB3F31B251A5B0087AB50 /* Build configuration list for PBXNativeTarget "BestFitImageViewDemo" */;
 			buildPhases = (
+				4DBEB0679F2C0F81F2CA3BCA /* Check Pods Manifest.lock */,
 				42DCB3CC1B251A5B0087AB50 /* Sources */,
 				42DCB3CD1B251A5B0087AB50 /* Frameworks */,
 				42DCB3CE1B251A5B0087AB50 /* Resources */,
+				73E2AD0F98C5B29572B03215 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,24 +154,6 @@
 			productName = BestFitImageViewDemo;
 			productReference = 42DCB3D01B251A5B0087AB50 /* BestFitImageViewDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		42DCB3E81B251A5B0087AB50 /* BestFitImageViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42DCB3F61B251A5B0087AB50 /* Build configuration list for PBXNativeTarget "BestFitImageViewDemoTests" */;
-			buildPhases = (
-				42DCB3E51B251A5B0087AB50 /* Sources */,
-				42DCB3E61B251A5B0087AB50 /* Frameworks */,
-				42DCB3E71B251A5B0087AB50 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42DCB3EB1B251A5B0087AB50 /* PBXTargetDependency */,
-			);
-			name = BestFitImageViewDemoTests;
-			productName = BestFitImageViewDemoTests;
-			productReference = 42DCB3E91B251A5B0087AB50 /* BestFitImageViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,10 +166,6 @@
 				TargetAttributes = {
 					42DCB3CF1B251A5B0087AB50 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					42DCB3E81B251A5B0087AB50 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 42DCB3CF1B251A5B0087AB50;
 					};
 				};
 			};
@@ -216,7 +183,6 @@
 			projectRoot = "";
 			targets = (
 				42DCB3CF1B251A5B0087AB50 /* BestFitImageViewDemo */,
-				42DCB3E81B251A5B0087AB50 /* BestFitImageViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,21 +192,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42DCB3FA1B251A9E0087AB50 /* Images in Resources */,
+				42DCB4011B251FE40087AB50 /* spirited_away_small.jpg in Resources */,
 				42DCB3DF1B251A5B0087AB50 /* Main.storyboard in Resources */,
+				42DCB4001B251FE40087AB50 /* spirited_away_large.jpg in Resources */,
 				42DCB3E41B251A5B0087AB50 /* LaunchScreen.xib in Resources */,
 				42DCB3E11B251A5B0087AB50 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42DCB3E71B251A5B0087AB50 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DBEB0679F2C0F81F2CA3BCA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		73E2AD0F98C5B29572B03215 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BestFitImageViewDemo/Pods-BestFitImageViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42DCB3CC1B251A5B0087AB50 /* Sources */ = {
@@ -253,23 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42DCB3E51B251A5B0087AB50 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42DCB3F01B251A5B0087AB50 /* BestFitImageViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		42DCB3EB1B251A5B0087AB50 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42DCB3CF1B251A5B0087AB50 /* BestFitImageViewDemo */;
-			targetProxy = 42DCB3EA1B251A5B0087AB50 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		42DCB3DD1B251A5B0087AB50 /* Main.storyboard */ = {
@@ -373,6 +350,7 @@
 		};
 		42DCB3F41B251A5B0087AB50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ABE9B3D0C8070630E736C6E /* Pods-BestFitImageViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BestFitImageViewDemo/Info.plist;
@@ -383,45 +361,12 @@
 		};
 		42DCB3F51B251A5B0087AB50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16DB6D7AA9E1D1D599EF2ED /* Pods-BestFitImageViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BestFitImageViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		42DCB3F71B251A5B0087AB50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BestFitImageViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestFitImageViewDemo.app/BestFitImageViewDemo";
-			};
-			name = Debug;
-		};
-		42DCB3F81B251A5B0087AB50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BestFitImageViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestFitImageViewDemo.app/BestFitImageViewDemo";
 			};
 			name = Release;
 		};
@@ -442,15 +387,6 @@
 			buildConfigurations = (
 				42DCB3F41B251A5B0087AB50 /* Debug */,
 				42DCB3F51B251A5B0087AB50 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42DCB3F61B251A5B0087AB50 /* Build configuration list for PBXNativeTarget "BestFitImageViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42DCB3F71B251A5B0087AB50 /* Debug */,
-				42DCB3F81B251A5B0087AB50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

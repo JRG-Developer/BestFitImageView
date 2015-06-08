@@ -1,12 +1,19 @@
 PODS:
+  - BestFitImageView (1.0.0)
   - Expecta (1.0.0)
   - OCMock (3.1.2)
 
 DEPENDENCIES:
+  - BestFitImageView (from `.`)
   - Expecta (~> 1.0)
   - OCMock (~> 3.1)
 
+EXTERNAL SOURCES:
+  BestFitImageView:
+    :path: .
+
 SPEC CHECKSUMS:
+  BestFitImageView: f152fc05378809714c5239c53e79b250be4d697f
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
 
