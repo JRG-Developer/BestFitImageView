@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
   s.name         = "BestFitImageView"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "BestFitImageView automatically selects the best contentMode by comparing the image size to the frame size."
   s.homepage     = "https://github.com/JRG-Developer/BestFitImageView"
   s.license      = { :type => "MIT", :file => "LICENSE" }
