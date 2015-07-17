@@ -34,4 +34,22 @@
  */
 @interface BestFitImageView : UIImageView
 
+/**
+ *  @brief  The mode to scale the image 
+ *
+ *  @discussion  This mode is used if the image is greater than the size of the image view. The default value is set to `UIViewContentModeScaleAspectFit`.
+ */
+@property (assign, nonatomic) UIViewContentMode scaleUsingMode;
+
+@end
+
+@interface BestFitImageView (Protected)
+
+/**
+ *  @brief  This method is used to do shared setup.
+ *
+ *  @discussion  This method is called by all designated initializers.
+ */
+- (void)commonInit;
+
 @end

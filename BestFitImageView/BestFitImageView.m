@@ -27,6 +27,69 @@
 
 @implementation BestFitImageView
 
+#pragma mark - Object Lifecylce
+
+- (instancetype)initWithFrame:(CGRect)frame {
+
+  self = [super initWithFrame:frame];
+  if (!self) {
+    return nil;
+  }
+  
+  [self commonInit];
+  return self;
+}
+
+- (instancetype)initWithImage:(UIImage *)image {
+  
+  self = [super initWithImage:image];
+  if (!self) {
+    return nil;
+  }
+  
+  [self commonInit];
+  return self;
+}
+
+- (instancetype)initWithImage:(UIImage *)image highlightedImage:(UIImage *)highlightedImage {
+  
+  self = [super initWithImage:image highlightedImage:highlightedImage];
+  if (!self) {
+    return nil;
+  }
+  
+  [self commonInit];
+  return self;
+}
+
+- (void)commonInit {
+  [self setScaleUsingMode:UIViewContentModeScaleAspectFit];
+}
+
+#pragma mark - Custom Accessors
+
+- (void)setScaleUsingMode:(UIViewContentMode)scaleUsingMode {
+  
+  if (_scaleUsingMode == scaleUsingMode) {
+    return;
+  }
+  
+  _scaleUsingMode = scaleUsingMode;
+  [self setBestContentModeForImage:self.image];
+}
+
+#pragma mark - NSCoding
+
+- (instancetype)initWithCoder:(NSCoder *)coder {
+  self = [super initWithCoder:coder];
+  if (!self) {
+    return nil;
+  }
+  
+  [self commonInit];
+  return self;
+}
+
 #pragma mark - UIImageView
 
 - (void)setImage:(UIImage *)image {
@@ -44,8 +107,7 @@
 - (UIViewContentMode)bestContentModeForImage:(UIImage *)image {
   
   return [self isImageWidthAndHeightLessThanFrameSize:image] ?
-  UIViewContentModeCenter :
-  UIViewContentModeScaleAspectFit;
+  UIViewContentModeCenter : self.scaleUsingMode;
 }
 
 - (BOOL)isImageWidthAndHeightLessThanFrameSize:(UIImage *)image {
@@ -60,18 +122,6 @@
   
   [super setBounds:bounds];
   [self setBestContentModeForImage:self.image];
-}
-
-#pragma mark - NSCoding
-
-- (instancetype)initWithCoder:(NSCoder *)coder {
-  self = [super initWithCoder:coder];
-  if (!self) {
-    return nil;
-  }
-  
-  [self setBestContentModeForImage:self.image];
-  return self;
 }
 
 @end
